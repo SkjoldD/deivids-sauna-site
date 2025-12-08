@@ -148,7 +148,7 @@ const HomePage = () => {
                 lineHeight: 1.3,
               }}
             >
-              info@desauna.dk<br />
+              info@nordicsauna.dk<br />
               +45 12 34 56 78
             </Typography>
           </Box>
@@ -249,7 +249,7 @@ const HomePage = () => {
                     lineHeight: 1.4,
                   }}
                 >
-                  info@desauna.dk<br />
+                  info@nordicsauna.dk<br />
                   +45 12 34 56 78
                 </Typography>
               </Box>
