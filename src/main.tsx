@@ -6,8 +6,19 @@ import './index.css';
 // Import Leaflet CSS
 import 'leaflet/dist/leaflet.css';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+console.log('React app starting...');
+const rootElement = document.getElementById('root');
+console.log('Root element found:', rootElement);
+
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  console.log('Creating React root...');
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+  console.log('React app rendered!');
+} else {
+  console.error('Root element not found!');
+}
