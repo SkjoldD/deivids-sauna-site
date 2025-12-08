@@ -20,7 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/deivids-sauna-site/">
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
