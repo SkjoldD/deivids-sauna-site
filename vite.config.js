@@ -7,6 +7,7 @@ export default defineConfig(({ command, mode }) => {
   
   return {
     plugins: [react()],
+    base: '/deivids-sauna-site/',
     server: {
       port: 3000,
     },
