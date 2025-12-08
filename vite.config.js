@@ -7,7 +7,7 @@ export default defineConfig(({ command, mode }) => {
   
   return {
     plugins: [react()],
-    base: mode === 'production' ? '/sauna-site/' : '/',
+    base: mode === 'production' ? '/' : '/',
     server: {
       port: 3000,
     },
