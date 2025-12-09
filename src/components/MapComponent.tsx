@@ -83,12 +83,12 @@ const MapComponent: React.FC = () => {
             height: '100%', 
             width: '100%', 
             borderRadius: '0',
-            filter: 'contrast(1.1) saturate(1.2)',
+            filter: 'brightness(1.3) contrast(0.9) saturate(0.8)',
           }}
         >
           <TileLayer
-            url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-            attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
           />
           {locations.map((location) => (
             <Marker
